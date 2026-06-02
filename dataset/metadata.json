@@ -1,0 +1,10 @@
+{
+  "name": "dataset_1",
+  "type": "normal",
+  "case_id": "case_id", 
+  "activity_key": "activity", 
+  "timestamp_key": "end_time", 
+  "start_timestamp_key": "start_time",
+  "contentColumn": "text_content", 
+  "orderColumn": "event_index"
+}

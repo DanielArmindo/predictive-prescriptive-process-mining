@@ -1,0 +1,17 @@
+[project]
+name = "process-aware-text-recommendation-system"
+version = "0.1.0"
+description = "Process-Aware Text Recommendation System"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "dill>=0.4.1",
+    "dotenv>=0.9.9",
+    "fastapi[standard]>=0.135.1",
+    "google-genai>=1.66.0",
+    "pandas>=3.0.1",
+    "pm4py>=2.7.19.8",
+    "rapidfuzz>=3.14.3",
+    "scikit-learn>=1.8.0",
+]
