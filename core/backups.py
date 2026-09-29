@@ -13,6 +13,8 @@ def list_backups(directory: str | None = None):
     ]
     itens = []
     for file in files:
+        if file == ".gitignore":
+            continue
         itens.append(file.replace(".pkl", ""))
 
     return sorted(itens, key=str.lower)

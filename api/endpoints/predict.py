@@ -59,7 +59,7 @@ async def predict_content(body: PredictContentRequest, only_templates: Optional[
                 probs = await model_predict.fill_template(
                     activity, prefix)
             else:
-                probs = model_predict.predict_templates(activity, k=3)
+                probs = model_predict.predict_templates(activity, prefix, k=3)
 
             return probs
 

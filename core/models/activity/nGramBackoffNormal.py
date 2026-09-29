@@ -12,6 +12,9 @@ class model(ModelEdoc):
 
     
     def __isValidMetadata(self) -> bool:
+        if not hasattr(self, "metadataColumns"):
+            return False
+
         if self.metadataColumns is None:
             return False
 

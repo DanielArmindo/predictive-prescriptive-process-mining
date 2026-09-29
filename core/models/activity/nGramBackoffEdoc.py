@@ -15,7 +15,6 @@ class model:
         self.start_counts = Counter()
         self.total_unigrams = 0
         self.activity_metrics = {}
-        self.divergence_points = {}
 
         # For managing parallel and sequential processes
         self.first_papeis_in_subprocess = set()
